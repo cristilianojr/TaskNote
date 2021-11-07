@@ -1,0 +1,41 @@
+
+.content-layout {
+    /* Ajustando Itens filhos de forma que fique um acima do outro */
+    display: flex;
+    flex-direction: row;
+
+    /* Definindo tamanho da barra de menu */
+    height: 84vh;
+    width: 100%;
+
+    /* Plano de fundo */
+    background: #134288; 
+}
+
+.menu-button {
+    /* Dimenssões */
+    margin: 5px 5px;
+    padding: 5px 5px;
+    width: 75px;
+
+    /* Cor */
+    background: #2d6dcc;
+    fill: #abcbfb;
+
+    /* Raio da borda */
+    border-radius: 10px;
+    border-width: 0px;
+
+}
+
+.menu-button:hover {
+    /* Color */
+    background: #90a0b9;
+}
+
+.menu-button:active {
+    /* Color */
+    background: #f5f9ff;
+}
+
+

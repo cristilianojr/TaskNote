@@ -1,0 +1,23 @@
+
+.container-logo {
+    /* Ajustando Itens filhos de forma que fique lado a lado */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 30px;
+
+    /* Definindo a altura e comprimento do plano de fundo*/
+    height: 16vh;
+    line-height: 100%;
+    width: 100%;
+
+    /* Definindo Design de Cores */
+    background: #0c2852;
+}
+
+.text-logo {
+    color: #abcbfb;
+    align-self: center;
+    font-size: 60px;
+    font-weight: 1000;
+}

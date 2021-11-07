@@ -1,0 +1,41 @@
+
+.container-task {
+    /* Dimensões */
+    width: 100%;
+    margin: 5px 5px;
+    padding: 5px 5px;
+    /* Colorações */
+    background: #2d6dcc;
+    /* Borda */
+    border-radius: 10px;
+    border-width: 0;
+    /* disposição dos elementos */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    /* Definindo Scroll */
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.task {
+    /* Dimensões e proporções */
+    width: 100%; height: 50px;
+    padding: 5px 5px;
+    border-radius: 10px;
+    border-width: 0;
+    /* disposição dos elementos */
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+}
+
+.checkbox-input {
+    width: 5%;
+}
+
+.text-input {
+    font-size: 26px;
+    
+}
+
