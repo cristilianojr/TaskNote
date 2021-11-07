@@ -18,12 +18,14 @@ function addNewtask() {
     let task_text_input = document.createElement('input');
     task_text_input.className = 'task text-input';
     task_text_input.type = 'text';
-    task_text_input.onchange = () => {desblockCheckBox(task_checkbox_input.parentElement)}
-    task_text_input.onkeyup = () => {desblockCheckBox(task_checkbox_input.parentElement)}
-    task_text_input.onkeydown = () => {desblockCheckBox(task_checkbox_input.parentElement)}
-    task_text_input.onclick = () => {desblockCheckBox(task_checkbox_input.parentElement)}
-    task_text_input.onmousedown = () => {desblockCheckBox(task_checkbox_input.parentElement)}
-    task_text_input.onmouseup = () => {desblockCheckBox(task_checkbox_input.parentElement)}
+    // task_text_input.onchange = () => {desblockCheckBox(task_checkbox_input.parentElement)}
+    // task_text_input.onkeyup = () => {desblockCheckBox(task_checkbox_input.parentElement)}
+    // task_text_input.onkeydown = () => {desblockCheckBox(task_checkbox_input.parentElement)}
+    // task_text_input.onclick = () => {desblockCheckBox(task_checkbox_input.parentElement)}
+    // task_text_input.onmousedown = () => {desblockCheckBox(task_checkbox_input.parentElement)}
+    // task_text_input.onmouseup = () => {desblockCheckBox(task_checkbox_input.parentElement)}
+    // task_text_input.onmousemove = () => {desblockCheckBox(task_checkbox_input.parentElement)}
+    task_text_input.oninput = () => {desblockCheckBox(task_checkbox_input.parentElement)}
 
     task.appendChild(task_checkbox_input);
     task.appendChild(task_text_input);
